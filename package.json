@@ -1,0 +1,25 @@
+{
+  "name": "slide-in-toolbar",
+  "version": "1.0.0",
+  "description": "just messing around with slide-in toolbars",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revmc/slideInToolbar.git"
+  },
+  "keywords": [
+    "toolbar"
+  ],
+  "author": "shaque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revmc/slideInToolbar/issues"
+  },
+  "homepage": "https://github.com/revmc/slideInToolbar#readme",
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  }
+}
