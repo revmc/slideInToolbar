@@ -10,8 +10,15 @@ html {
 	height: 50px;
 	width: 600px;
 	line-height: 50px;
-	border: 2px dashed white;
+	border: 2px solid white;
+	border-left: none;
 	font: 20px Arial;
-	border-radius: 25px;
+	border-radius: 0px 25px 25px 0px;
 	display: flex;
+	flex-flow: row;
+	transition: left .5s;
+}
+
+.toolbar.extended {
+	left: 0px;
 }
