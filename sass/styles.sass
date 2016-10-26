@@ -1,0 +1,23 @@
+$border-color: blue
+
+html
+	height: 100%
+
+.toolbar
+	position: absolute
+	left: -580px
+	top: 20px
+	color: white
+	height: 50px
+	width: 600px
+	line-height: 50px
+	border: 2px solid $border-color
+	border-left: none
+	font: 20px Arial
+	border-radius: 0px 25px 25px 0px
+	display: flex
+	flex-flow: row
+	transition: left .5s
+
+.toolbar.extended
+	left: 0px

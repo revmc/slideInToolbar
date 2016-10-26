@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "jshint **.js",
-    "serve": "browser-sync start --server --files '*.html, *.js, *.css'"
+    "serve": "browser-sync start --server --files '*.html, *.js, *.css'",
+    "build:sass": "node-sass -r sass -o .",
+    "watch:sass": "npm run build:sass && npm run build:sass -- -w"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   "homepage": "https://github.com/revmc/slideInToolbar#readme",
   "devDependencies": {
     "browser-sync": "^2.17.5",
-    "jshint": "^2.9.4"
+    "jshint": "^2.9.4",
+    "node-sass": "^3.10.1"
   }
 }
