@@ -1,4 +1,4 @@
-var slideInNav = document.querySelector('.toolbar');
+var slideInNav = document.querySelector('nav');
 
 slideInNav.addEventListener('mouseenter', function() {
 	slideInNav.className += ' extended';

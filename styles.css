@@ -1,7 +1,7 @@
 html {
   height: 100%; }
 
-.toolbar {
+nav {
   position: absolute;
   left: -580px;
   top: 20px;
@@ -17,5 +17,13 @@ html {
   flex-flow: row;
   transition: left .5s; }
 
-.toolbar.extended {
+nav.extended {
   left: 0px; }
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
